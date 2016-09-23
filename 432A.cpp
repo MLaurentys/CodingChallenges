@@ -7,18 +7,18 @@ int main()
 	int numberOfPeople;
 	int yearsTogether;
 	int okPeople = 0;
-	int nextPeople;
+	int nextPerson;
 	//get defining variables
 	cin >> numberOfPeople;
 	cin >> yearsTogether;
-	//fix input for algorithm purpose
+	//fix input for algorithm purposes
 	yearsTogether = 5 - yearsTogether;
 
 	for (int i = 0; i < numberOfPeople; i++)
 	{
-		//check if pearson can be put into a team
-		cin >> nextPeople;
-		if (nextPeople <= yearsTogether)
+		//check if person can be put into a team
+		cin >> nextPerson;
+		if (nextPerson <= yearsTogether)
 			//amount of people that can fit a team
 			okPeople++;
 	}
