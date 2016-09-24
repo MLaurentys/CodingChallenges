@@ -20,6 +20,7 @@ int main()
 			cout << num1*(num2 + num3);
 		else
 			if (num2 == 1)
+				//sum with the smallest
 				if (num1 > num3)
 					cout << num1*(num2 + num3);
 				else
