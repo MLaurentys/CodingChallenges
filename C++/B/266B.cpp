@@ -9,11 +9,12 @@ int main()
 	cin >> amountTransform;
 	string childrenOrder;
 	cin >> childrenOrder;
-	string childrenOrderFixed = childrenOrder;
+	string childrenOrderFixed = childrenOrder;//aux string for easier fixing (can be avoided)
 	for (int i = 0; i < amountTransform; i++)
 	{
 		for (int j = 0; j < childrenNumber - 1; j++)
 		{
+			//locate Boy-Girl sequence and change it on streing copy
 			if (childrenOrder[j] == 'B' && childrenOrder[j + 1] == 'G')
 				swap(childrenOrderFixed[j], childrenOrderFixed[j + 1]);
 		}
