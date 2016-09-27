@@ -1,5 +1,5 @@
 #include<iostream>
-#include<string>//for replace and swap
+#include<string>//for swap
 using namespace std;
 int main()
 {
@@ -21,10 +21,4 @@ int main()
 	}
 	cout << childrenOrder;
 	return 0;
-/*	string oi = "OI";
-	for (int i = 0; i < 2; i++)
-	{
-		if (oi[i] == 'O' || oi[i] == 'I')
-			cout << "OK\n";
-	}*/
 }
