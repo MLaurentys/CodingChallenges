@@ -14,7 +14,7 @@ int main()
 	{
 		for (int j = 0; j < childrenNumber - 1; j++)
 		{
-			//locate Boy-Girl sequence and change it on streing copy
+			//locate Boy-Girl sequence and change it on string's copy
 			if (childrenOrder[j] == 'B' && childrenOrder[j + 1] == 'G')
 				swap(childrenOrderFixed[j], childrenOrderFixed[j + 1]);
 		}
