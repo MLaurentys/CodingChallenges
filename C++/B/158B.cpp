@@ -26,13 +26,9 @@ int main()
 			else
 			{
 				if (tempGroup == 3)
-				{
 					threeGroup++;
-				}
 				else
-				{
 					fourGroup++;
-				}
 			}
 		}
 	}
