@@ -17,7 +17,7 @@ int main()
 	}
 	sort(radiusList.begin(), radiusList.end());// Ex: 1, 2, 3, 4, ...
 	//it is better to work from the largest to the smaller, because
-	//you cannot tell which collor the first circle is painted
+	//you cannot tell which collor the smaller circle is painted
 	reverse(radiusList.begin(), radiusList.end());// Ex 20, 19, 18, 17, ...
 	for (int i = 0; i < amountOfCircles; i++){
 		if (i % 2 == 0)
