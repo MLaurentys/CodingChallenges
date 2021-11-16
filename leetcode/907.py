@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/sum-of-subarray-minimums/
+
 class Solution:
     def sumSubarrayMins(self, arr: List[int]) -> int:
         dp = [0] * len(arr)
